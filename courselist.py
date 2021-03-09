@@ -5,7 +5,7 @@ class Node:
 
 
 class MyList:
-    def __init__(self):
+    def __init__(self): #this is my list
         self.head = None
         self.first = None
     
