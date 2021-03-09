@@ -13,7 +13,7 @@ class Node:
     
     def __str__():
     
-    
+    sfjkslfjskjlskljsjklss
 
 
 
