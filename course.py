@@ -1,4 +1,4 @@
-"""#class
+#class
 class person:
     def __init__(self,dataval = None): # default constructor
         self.next = None  #varables/feilds (no private feilds)
@@ -23,7 +23,6 @@ class link_list:
         def __init__(self)
             person.__init__(self)
 
-"""
  
     
 
