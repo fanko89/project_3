@@ -4,7 +4,7 @@ class person:
         self.next = None  #varables/feilds (no private feilds)
         self.dataval = dataval    
 
-class link_list: # good morning 
+class link_list: 
 
                        
     def number(self):       #method (performed by calling def)
