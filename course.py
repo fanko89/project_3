@@ -10,8 +10,6 @@ class link_list: # good morning
     def number(self):       #method (performed by calling def)
     
     def name(self, data):
-
-
         
     def credit_hr(self):
     
@@ -22,9 +20,3 @@ class link_list: # good morning
     class student(person): #inheritance
         def __init__(self)
             person.__init__(self)
-
- 
-    
-
-
-    
