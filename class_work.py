@@ -13,9 +13,9 @@ class Node:
     
     def __str__():
     
-    sfjkslfjskjlskljsjklss
+  
 
 
 
-print(help_node)       
+       
 
