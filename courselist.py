@@ -1,16 +1,16 @@
 class Node:
-    def __init__(self, data_val = None):
+    def __init__(self,number, data_val = None):
         self.next = None
         self.data_val = data_val
 
 
-class MyList:
+class linked_list:
     def __init__(self): #this is my list
         self.head = None
         self.first = None
         self.count = 0
     
-     def __str__(self):
+    def __str__(self):
         result = ""
         current = self.first
         while current != None:
@@ -34,6 +34,7 @@ class MyList:
         else:
             self.track = self.track.next
         return self.track
+
     
     def index(self, item):
         index = 0
@@ -68,7 +69,7 @@ class MyList:
         if self.first == None:
             self.first = Node(data_val)
             self.last = self.first
-        elif self. first.data_val >data_val:
+        elif self. first.data_val > data_val:
             new_item = Node(data_val)
             new_item.next = self.first
             self.first.prev = new_item.next
@@ -76,7 +77,7 @@ class MyList:
         else:
             current = self.first
 
-            while current.first. next != None and current.data_val <data_val:
+            while current.first. next != None and current.data_val < data_val:
                 current = current.next
             new_item = Node(data_val)
             new_item.next = current.next #points at the next current
@@ -90,8 +91,18 @@ class MyList:
     
     def calculate_gpa():
         pass
-    
 
+    def is_sorted(self, data_val):
+        while self.first < self.first.next:
+            if(self.first >= self.first.next):
+                self.first = self.first.next
+                
+        if self.track == self.first:
+            return True  # list is sorted
+        else:
+            return False  # List is not sorted
+
+    
     def length(self):
         return count
 
